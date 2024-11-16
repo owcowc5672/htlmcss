@@ -6,16 +6,54 @@
     <title>20241116layout01</title>
     <link rel="stylesheet" href="./css/all.min.css">
     <style>
+        /* 헤더탑부분 */
         div.headerTop{}
         div.headerTop>div.icons>i{}
         div.headerTop>div.gnb{}
         div.headerTop>div.gnb>div.menu{}
-
+        /* 헤더부분 */
         div.header{}
         div.headerTop>div.logo{}
         div.headerTop>div.nav{}
-        div.headerTop>div.gnb>div.menu{}
-        div.headerTop>div.gnb>div.menu>i{}
+        div.headerTop>div.nav>div.menu{}
+        div.headerTop>div.nav>div.menu>i{
+            outline: 1px solid red;
+        }
+        /* 공통요소 */
+        div.content{}
+        div.content>div.header{}
+        div.content>div.header>div.title{}
+        div.content>div.header>div.subTitle{}
+        div.content>div.section{}
+        div.content>div.section>div.article{}
+        div.content>div.section>div.article>div.image{}
+        div.content>div.section>div.article>div.texts{}
+        /* 컨텐츠1 */
+        div.content.con1{}
+        div.content.con1>div.header{}
+        div.content.con1>div.header>div.title{}
+        div.content.con1>div.header>div.subTitle{}
+        div.content.con1>div.section>div.artTop{}
+        div.content.con1>div.section>div.artTop>div.article{}
+        div.content.con1>div.section>div.artTop>div.article>div.image{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts>div.title{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts>div.subTitle{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts>div.note{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons{}
+        div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons>i{}
+        div.content.con1>div.section>div.artBottom{}
+        div.content.con1>div.section>div.artBottom{}
+        div.content.con1>div.section>div.artBottom>div.article{}
+        div.content.con1>div.section>div.artBottom>div.article>div.image{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.title{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.subTitle{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.note{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons{}
+        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
+
+
     </style>
 </head>
 <body>
@@ -40,7 +78,8 @@
             <div class="menu">about</div>
             <div class="menu">news</div>
             <div class="menu">portfolio</div>
-            <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i></div>
         </div>
     </div>
 
