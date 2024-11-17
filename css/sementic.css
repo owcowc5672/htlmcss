@@ -75,8 +75,9 @@ div.content.cnt3>header>p{}
 div.content.cnt3>section{}
 div.content.cnt3>section>article{}
 div.content.cnt3>section>article>div.image{}
-div.content.cnt3>section>article>div.h3{}
-div.content.cnt3>section>article>div.p{}
+div.content.cnt3>section>article>div.texts{}
+div.content.cnt3>section>article>div.texts>h3{}
+div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
 div.footer{}
