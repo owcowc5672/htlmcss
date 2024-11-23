@@ -7,27 +7,26 @@ div.hdrTopWrap>div.hdrTop{
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
+    display: flex;
 }
 div.hdrTopWrap>div.hdrTop>div.icons{}
-div.hdrTopWrap>div.hdrTop>div.icons>i{
-    width: 80%;
-    max-width: 1080px;
-    margin: 0 auto;
-    outline: 1px solid red;
-}
+div.hdrTopWrap>div.hdrTop>div.icons>i{}
 div.hdrTopWrap>div.hdrTop>nav{}
 div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
-div.hdrWrap{}
-div.hdrWrap>header.hdr{
+div.hdrWrap{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
+    
 }
+div.hdrWrap>header.hdr{}
 div.hdrWrap>header.hdr>h1{}
-div.hdrWrap>header.hdr>nav{}
+div.hdrWrap>header.hdr>nav{
+    display: flex;
+}
 div.hdrWrap>header.hdr>nav>h4{}
 div.hdrWrap>header.hdr>nav>h4>i{}
 
