@@ -6,7 +6,6 @@ div.hdrTopWrap>div.hdrTop{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    outline: 1px solid red;
     display: flex;
 }
 div.hdrTopWrap>div.hdrTop>div.icons{}
@@ -19,7 +18,6 @@ div.hdrWrap{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    outline: 1px solid red;
     display: flex;
 }
 div.hdrWrap>header.hdr{}
@@ -36,12 +34,11 @@ div.cntWrap>div.content{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 div.cntWrap>div.content>header{}
 div.cntWrap>div.content>header>h2{}
 div.cntWrap>div.content>header>p{}
-div.cntWrap>div.content>section{}
+div.cntWrap>div.content>section{display: flex;}
 div.cntWrap>div.content>section>article{}
 div.cntWrap>div.content>section>article>div.image{}
 div.cntWrap>div.content>section>article>div.texts{}
@@ -82,7 +79,7 @@ div.cntWrap.wrap2>div.content.cnt2{}
 div.cntWrap.wrap2>div.content.cnt2>header{}
 div.cntWrap.wrap2>div.content.cnt2>header>h2{}
 div.cntWrap.wrap2>div.content.cnt2>header>p{}
-div.cntWrap.wrap2>div.content.cnt2>section{}
+div.cntWrap.wrap2>div.content.cnt2>section{display: flex;}
 div.cntWrap.wrap2>div.content.cnt2>section>article{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{}
@@ -98,7 +95,7 @@ div.cntWrap.wrap3>div.content.cnt3>header{}
 div.cntWrap.wrap3>div.content.cnt3>header>h2{}
 div.cntWrap.wrap3>div.content.cnt3>header>p{}
 div.cntWrap.wrap3>div.content.cnt3>section{}
-div.cntWrap.wrap3>div.content.cnt3>section>article{}
+div.cntWrap.wrap3>div.content.cnt3>section>article{display: flex;}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
@@ -110,7 +107,6 @@ div.footerWrap>footer{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 div.footerWrap>footer>h4{}
 div.footerWrap>footer>p{}
