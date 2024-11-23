@@ -20,37 +20,37 @@ div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
 div.hdrWrap{}
-div.hdrWrap>div.header.hdr{
+div.hdrWrap>header.hdr{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
 }
-div.hdrWrap>div.header.hdr>h1{}
-div.hdrWrap>div.header.hdr>nav{}
-div.hdrWrap>div.header.hdr>nav>h4{}
-div.hdrWrap>div.header.hdr>nav>h4>i{}
+div.hdrWrap>header.hdr>h1{}
+div.hdrWrap>header.hdr>nav{}
+div.hdrWrap>header.hdr>nav>h4{}
+div.hdrWrap>header.hdr>nav>h4>i{}
 
 /* 컨텐츠 공통 */
-div.cntWrap.wrap{}
-div.cntWrap.wrap>div.content{
+div.cntWrap{}
+div.cntWrap>div.content{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
 }
-div.cntWrap.wrap>div.content>header{}
-div.cntWrap.wrap>div.content>header>h2{}
-div.cntWrap.wrap>div.content>header>p{}
-div.cntWrap.wrap>div.content>section{}
-div.cntWrap.wrap>div.content>section>article{}
-div.cntWrap.wrap>div.content>section>article>div.image{}
-div.cntWrap.wrap>div.content>section>article>div.texts{}
-div.cntWrap.wrap>div.content>section>article>div.texts>h3{}
-div.cntWrap.wrap>div.content>section>article>div.texts>h4{}
-div.cntWrap.wrap>div.content>section>article>div.texts>p{}
-div.cntWrap.wrap>div.content>section>article>div.texts>div.icons{}
-div.cntWrap.wrap>div.content>section>article>div.texts>div.icons>i{}
+div.cntWrap>div.content>header{}
+div.cntWrap>div.content>header>h2{}
+div.cntWrap>div.content>header>p{}
+div.cntWrap>div.content>section{}
+div.cntWrap>div.content>section>article{}
+div.cntWrap>div.content>section>article>div.image{}
+div.cntWrap>div.content>section>article>div.texts{}
+div.cntWrap>div.content>section>article>div.texts>h3{}
+div.cntWrap>div.content>section>article>div.texts>h4{}
+div.cntWrap>div.content>section>article>div.texts>p{}
+div.cntWrap>div.content>section>article>div.texts>div.icons{}
+div.cntWrap>div.content>section>article>div.texts>div.icons>i{}
 
 /* 컨텐츠1 */
 div.cntWrap.wrap1{}
@@ -107,13 +107,13 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
 div.footerWrap{}
-div.footerWrap>div.footer{
+div.footerWrap>footer{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
 }
-div.footerWrap>div.footer>h4{}
-div.footerWrap>div.footer>p{}
-div.footerWrap>div.footer>div.sns{}
-div.footerWrap>div.footer>div.sns>i{}
+div.footerWrap>footer>h4{}
+div.footerWrap>footer>p{}
+div.footerWrap>footer>div.sns{}
+div.footerWrap>footer>div.sns>i{}
