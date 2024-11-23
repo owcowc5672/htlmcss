@@ -20,7 +20,7 @@ div.hdrWrap{
     max-width: 1080px;
     margin: 0 auto;
     outline: 1px solid red;
-    
+    display: flex;
 }
 div.hdrWrap>header.hdr{}
 div.hdrWrap>header.hdr>h1{}
