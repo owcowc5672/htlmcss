@@ -7,67 +7,87 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <style>
         /* 헤더탑부분 */
-        div.headerTop{}
-        div.headerTop>div.icons>i{}
-        div.headerTop>div.gnb{}
-        div.headerTop>div.gnb>div.menu{}
+        div.headerWrap{}
+        div.headerWrap>div.headerTop>div.icons>i{}
+        div.headerWrap>div.headerTop>div.gnb{}
+        div.headerWrap>div.headerTop>div.gnb>div.menu{}
+        div.headerWrap>div.headerTop{}
         /* 헤더부분 */
-        div.header{}
-        div.headerTop>div.logo{}
-        div.headerTop>div.nav{}
-        div.headerTop>div.nav>div.menu{}
-        div.headerTop>div.nav>div.menu>i{
+        div.headerWrap{}
+        div.headerWrap>div.header{}
+        div.headerWrap>div.headerTop>div.logo{}
+        div.headerWrap>div.headerTop>div.nav{}
+        div.headerWrap>div.headerTop>div.nav>div.menu{}
+        div.headerWrap>div.headerTop>div.nav>div.menu>i{
             outline: 1px solid red;
         }
         /* 공통요소 */
-        div.content{}
-        div.content>div.header{}
-        div.content>div.header>div.title{}
-        div.content>div.header>div.subTitle{}
-        div.content>div.section{}
-        div.content>div.section>div.article{}
-        div.content>div.section>div.article>div.image{}
-        div.content>div.section>div.article>div.texts{}
+        div.contentWrap>div.contentWrap{}
+        div.contentWrap>div.content{}
+        div.contentWrap>div.content>div.header{}
+        div.contentWrap>div.content>div.header>div.title{}
+        div.contentWrap>div.content>div.header>div.subTitle{}
+        div.contentWrap>div.content>div.section{}
+        div.contentWrap>div.content>div.section>div.article{}
+        div.contentWrap>div.content>div.section>div.article>div.image{}
+        div.contentWrap>div.content>div.section>div.article>div.texts{}
         /* 컨텐츠1 */
-        div.content.con1{}
-        div.content.con1>div.header{}
-        div.content.con1>div.header>div.title{}
-        div.content.con1>div.header>div.subTitle{}
-        div.content.con1>div.section>div.artTop{}
-        div.content.con1>div.section>div.artTop>div.article{}
-        div.content.con1>div.section>div.artTop>div.article>div.image{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts>div.title{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts>div.subTitle{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts>div.note{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons{}
-        div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons>i{}
-        div.content.con1>div.section>div.artBottom{}
-        div.content.con1>div.section>div.artBottom{}
-        div.content.con1>div.section>div.artBottom>div.article{}
-        div.content.con1>div.section>div.artBottom>div.article>div.image{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.title{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.subTitle{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.note{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons{}
-        div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
+        div.content1Wrap{}
+        div.content1Wrap>div.content.con1{}
+        div.content1Wrap>div.content.con1>div.header{}
+        div.content1Wrap>div.content.con1>div.header>div.title{}
+        div.content1Wrap>div.content.con1>div.header>div.subTitle{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.image{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts>div.title{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts>div.subTitle{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts>div.note{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons{}
+        div.content1Wrap>div.content.con1>div.section>div.artTop>div.article>div.texts>div.icons>i{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.image{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts>div.title{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts>div.subTitle{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts>div.note{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons{}
+        div.content1Wrap>div.content.con1>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
         /* 콘텐츠2 */
-        div.content.con2{}
-        div.content.con2>div.header{}
-        div.content.con2>div.header>div.title{}
-        div.content.con2>div.header>div.subTitle{}
-        div.content.con2>div.section{}
-        div.content.con2>div.section.div.article{}
-        div.content.con2>div.section.div.article>div.image{}
-        div.content.con2>div.section.div.article>div.texts{}
-        div.content.con2>div.section.div.article>div.texts.div.title{}
-        div.content.con2>div.section.div.article>div.texts>div.subTitle{}
-        div.content.con2>div.section.div.article>div.texts>div.note{}
-        div.content.con2>div.section.div.article>div.texts>div.button{}
-
-
-
+        div.content2Wrap{}
+        div.content2Wrap>div.content.con2{}
+        div.content2Wrap>div.content.con2>div.header{}
+        div.content2Wrap>div.content.con2>div.header>div.title{}
+        div.content2Wrap>div.content.con2>div.header>div.subTitle{}
+        div.content2Wrap>div.content.con2>div.section{}
+        div.content2Wrap>div.content.con2>div.section.div.article{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.image{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.texts{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.texts.div.title{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.texts>div.subTitle{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.texts>div.note{}
+        div.content2Wrap>div.content.con2>div.section.div.article>div.texts>div.button{}
+        /* 콘텐츠3 */
+        div.content3Wrap
+        div.content3Wrap>div.content.con3{}
+        div.content3Wrap>div.content.con3>div.title{}
+        div.content3Wrap>div.content.con3>div.subTitle{}
+        div.content3Wrap>div.content.con3>div.section{}
+        div.content3Wrap>div.content.con3>div.section>div.article{}
+        div.content3Wrap>div.content.con3>div.section>div.article.image{}
+        div.content3Wrap>div.content.con3>div.section>div.article.texts{}
+        div.content3Wrap>div.content.con3>div.section>div.article>div.texts>div.title{}
+        div.content3Wrap>div.content.con3>div.section>div.article>div.texts>div.note{}
+        div.content3Wrap>div.content.con3>div.section>div.article>div.texts>div.note{}
+        /* 푸터 */
+        div.footerWrap{}
+        div.footerWrap>div.footer{}
+        div.footerWrap>div.footer>div.logo{}
+        div.footerWrap>div.footer>div.text{}
+        div.footerWrap>div.footer>div.sns{}
 
     </style>
 </head>
