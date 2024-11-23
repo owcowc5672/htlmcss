@@ -2,15 +2,30 @@
 
 /* 헤더탑 */
 div.hdrTopWrap{}
-div.hdrTopWrap>div.hdrTop{}
+div.hdrTopWrap>div.hdrTop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 div.hdrTopWrap>div.hdrTop>div.icons{}
-div.hdrTopWrap>div.hdrTop>div.icons>i{}
+div.hdrTopWrap>div.hdrTop>div.icons>i{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 div.hdrTopWrap>div.hdrTop>nav{}
 div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
 div.hdrWrap{}
-div.hdrWrap>div.header.hdr{}
+div.hdrWrap>div.header.hdr{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 div.hdrWrap>div.header.hdr>h1{}
 div.hdrWrap>div.header.hdr>nav{}
 div.hdrWrap>div.header.hdr>nav>h4{}
@@ -18,7 +33,12 @@ div.hdrWrap>div.header.hdr>nav>h4>i{}
 
 /* 컨텐츠 공통 */
 div.cntWrap.wrap{}
-div.cntWrap.wrap>div.content{}
+div.cntWrap.wrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 div.cntWrap.wrap>div.content>header{}
 div.cntWrap.wrap>div.content>header>h2{}
 div.cntWrap.wrap>div.content>header>p{}
@@ -87,7 +107,12 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
 div.footerWrap{}
-div.footerWrap>div.footer{}
+div.footerWrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 div.footerWrap>div.footer>h4{}
 div.footerWrap>div.footer>p{}
 div.footerWrap>div.footer>div.sns{}
