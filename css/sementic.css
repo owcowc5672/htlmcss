@@ -1,7 +1,9 @@
 @import url('./all.min.css');
 
 /* 헤더탑 */
-div.hdrTopWrap{}
+div.hdrTopWrap{
+    background-color: #333333;
+}
 div.hdrTopWrap>div.hdrTop{
     width: 80%;
     max-width: 1080px;
@@ -17,7 +19,9 @@ div.hdrTopWrap>div.hdrTop>nav{
 div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
-div.hdrWrap{}
+div.hdrWrap{
+    background-color: #958A9A;
+}
 div.hdrWrap>header.hdr{width: 80%;
     max-width: 1080px;
     margin: 0 auto;
@@ -84,11 +88,15 @@ div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icon
 /* 컨텐츠2 */
 div.cntWrap.wrap2{}
 div.cntWrap.wrap2>div.content.cnt2{}
-div.cntWrap.wrap2>div.content.cnt2>header{}
+div.cntWrap.wrap2>div.content.cnt2>header{
+    background-color: #92899A;
+}
 div.cntWrap.wrap2>div.content.cnt2>header>h2{}
 div.cntWrap.wrap2>div.content.cnt2>header>p{}
 div.cntWrap.wrap2>div.content.cnt2>section{}
-div.cntWrap.wrap2>div.content.cnt2>section>article{background-color: crimson;}
+div.cntWrap.wrap2>div.content.cnt2>section>article{
+    display: flex;
+}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
@@ -102,7 +110,9 @@ div.cntWrap.wrap3>div.content.cnt3{}
 div.cntWrap.wrap3>div.content.cnt3>header{}
 div.cntWrap.wrap3>div.content.cnt3>header>h2{}
 div.cntWrap.wrap3>div.content.cnt3>header>p{}
-div.cntWrap.wrap3>div.content.cnt3>section{}
+div.cntWrap.wrap3>div.content.cnt3>section{
+    display: flex;
+}
 div.cntWrap.wrap3>div.content.cnt3>section>article{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
@@ -110,7 +120,9 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
-div.footerWrap{}
+div.footerWrap{
+    background-color: #92899A;
+}
 div.footerWrap>footer{
     width: 80%;
     max-width: 1080px;
