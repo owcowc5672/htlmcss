@@ -55,12 +55,13 @@ div.cntWrap>div.content{
 div.cntWrap>div.content>header{}
 div.cntWrap>div.content>header>h2{
     line-height: 80px;
+    text-align: center;
 }
 div.cntWrap>div.content>header>p{
     line-height: 20px;
     height: 40px;
-    outline: 1px red solid;
     overflow: hidden;
+    width: calc(100% / 12 * 4.5);
 }
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section>article{}
@@ -68,9 +69,17 @@ div.cntWrap>div.content>section article div.image{
     background-color: #BFC7D2;
 }
 div.cntWrap>div.content>section>article>div.texts{}
-div.cntWrap>div.content>section>article>div.texts>h3{}
-div.cntWrap>div.content>section>article>div.texts>h4{}
-div.cntWrap>div.content>section>article>div.texts>p{}
+div.cntWrap>div.content section article div.texts h3{
+    line-height: 40px;
+}
+div.cntWrap>div.content>section article>div.texts>h4{
+    line-height: 40px;
+}
+div.cntWrap>div.content>section>article>div.texts>p{
+    line-height: 20px;
+    height: 80px;
+    overflow: hidden;
+}
 div.cntWrap>div.content>section>article>div.texts>div.icons{}
 div.cntWrap>div.content>section>article>div.texts>div.icons>i{}
 
@@ -131,7 +140,9 @@ div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{
 }
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h4{}
-div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{
+    height: 100px;
+}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>div.button{}
 
 /* 콘텐츠3 */
@@ -149,7 +160,7 @@ div.cntWrap.wrap3>div.content.cnt3>section{
 }
 div.cntWrap.wrap3>div.content.cnt3>section>article{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{
-    height: 200px;
+    height: 240px;
 }
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
@@ -164,7 +175,15 @@ div.footerWrap>footer{
     max-width: 1080px;
     margin: 0 auto;
 }
-div.footerWrap>footer>h4{}
-div.footerWrap>footer>p{}
-div.footerWrap>footer>div.sns{}
+div.footerWrap>footer>h4{
+    line-height: 80px;
+}
+div.footerWrap>footer>p{
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}
+div.footerWrap>footer>div.sns{
+    line-height: 80px;
+}
 div.footerWrap>footer>div.sns>i{}
