@@ -1,8 +1,15 @@
 /* 헤더탑 */
-
 div.hdrTopWrap{}
 div.hdrTopWrap>div.hdrTop{}
 div.hdrTopWrap>div.icons{}
 div.hdrTopWrap>div.icons>i{}
 div.hdrTopWrap>nav{}
 div.hdrTopWrap>nav>h4{}
+
+/* 헤더 */
+div.hdrWrap{}
+div.hdrWrap>header.hdr{}
+div.hdrWrap>header.hdr>h1{}
+div.hdrWrap>header.hdr>nav{}
+div.hdrWrap>header.hdr>nav>h4{}
+div.hdrWrap>header.hdr>nav>h4>i{}
