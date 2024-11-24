@@ -15,12 +15,15 @@ div.hdrTopWrap>div.hdrTop{
 div.hdrTopWrap>div.hdrTop>div.icons{
     line-height: 40px;
 }
-div.hdrTopWrap>div.hdrTop>div.icons>i{}
+div.hdrTopWrap>div.hdrTop>div.icons>i{
+    color: #fff;
+}
 div.hdrTopWrap>div.hdrTop>nav{
     display: flex;
 }
 div.hdrTopWrap>div.hdrTop>nav>h4{
     line-height: 40px;
+    color: #fff;
 }
 
 /* 헤더 */
@@ -33,6 +36,7 @@ div.hdrWrap>header.hdr{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    color: #fff;
 }
 div.hdrWrap>header.hdr>h1{
     line-height: 80px;
@@ -42,8 +46,11 @@ div.hdrWrap>header.hdr>nav{
 }
 div.hdrWrap>header.hdr>nav>h4{
     line-height: 80px;
+    color: #fff;
 }
-div.hdrWrap>header.hdr>nav>h4>i{}
+div.hdrWrap>header.hdr>nav>h4>i{
+    color: #fff;
+}
 
 /* 컨텐츠공통 */
 div.cntWrap{}
