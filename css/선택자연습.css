@@ -72,9 +72,7 @@ div.cntWrap.wrap1>div.content.cnt1{
     max-width: 1080px;
     margin: 0 auto;
 }
-div.cntWrap.wrap1>div.content.cnt1>header{
-    background-color: #958A9A
-}
+div.cntWrap.wrap1>div.content.cnt1>header{}
 div.cntWrap.wrap1>div.content.cnt1>header>h2{}
 div.cntWrap.wrap1>div.content.cnt1>header>p{}
 div.cntWrap.wrap1>div.content.cnt1>section{}
