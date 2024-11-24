@@ -62,6 +62,7 @@ div.cntWrap>div.content>header>p{
     height: 40px;
     overflow: hidden;
     width: calc(100% / 12 * 4.5);
+    margin: 0 auto
 }
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section>article{}
@@ -164,7 +165,9 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{
 }
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
-div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{
+    margin: 0 auto
+}
 
 /* 푸터 */
 div.footerWrap{
@@ -184,6 +187,8 @@ div.footerWrap>footer>p{
     height: 40px;
     overflow: hidden;
     text-align: center;
+    width: calc(100 / 12 * 4.5);
+    margin: 0 auto;
 }
 div.footerWrap>footer>div.sns{
     line-height: 80px;
