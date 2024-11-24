@@ -11,12 +11,12 @@ div.hdrTopWrap>div.hdrTop{
     margin: 0 auto;
     display: flex;
 }
-div.hdrTopWrap>div.icons{}
-div.hdrTopWrap>div.icons>i{}
-div.hdrTopWrap>nav{
+div.hdrTopWrap>div.hdrTop>div.icons{}
+div.hdrTopWrap>div.hdrTop>div.icons>i{}
+div.hdrTopWrap>div.hdrTop>nav{
     display: flex;
 }
-div.hdrTopWrap>nav>h4{}
+div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
 div.hdrWrap{
@@ -26,9 +26,12 @@ div.hdrWrap>header.hdr{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
 }
 div.hdrWrap>header.hdr>h1{}
-div.hdrWrap>header.hdr>nav{}
+div.hdrWrap>header.hdr>nav{
+    display: flex;
+}
 div.hdrWrap>header.hdr>nav>h4{}
 div.hdrWrap>header.hdr>nav>h4>i{}
 
