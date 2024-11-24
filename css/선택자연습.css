@@ -1,14 +1,32 @@
+@import url('./all.min.css');
+@import url('./reset.min.css');
+
 /* 헤더탑 */
-div.hdrTopWrap{}
-div.hdrTopWrap>div.hdrTop{}
+div.hdrTopWrap{
+    background-color: #333333;
+}
+div.hdrTopWrap>div.hdrTop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
 div.hdrTopWrap>div.icons{}
 div.hdrTopWrap>div.icons>i{}
-div.hdrTopWrap>nav{}
+div.hdrTopWrap>nav{
+    display: flex;
+}
 div.hdrTopWrap>nav>h4{}
 
 /* 헤더 */
-div.hdrWrap{}
-div.hdrWrap>header.hdr{}
+div.hdrWrap{
+    background-color: #958A9A;
+}
+div.hdrWrap>header.hdr{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.hdrWrap>header.hdr>h1{}
 div.hdrWrap>header.hdr>nav{}
 div.hdrWrap>header.hdr>nav>h4{}
@@ -16,7 +34,11 @@ div.hdrWrap>header.hdr>nav>h4>i{}
 
 /* 컨텐츠공통 */
 div.cntWrap{}
-div.cntWrap>div.content{}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.cntWrap>div.content>header{}
 div.cntWrap>div.content>header>h2{}
 div.cntWrap>div.content>header>p{}
@@ -32,8 +54,12 @@ div.cntWrap>div.content>section>article>div.texts>div.icons>i{}
 
 /* 콘텐츠1 */
 div.cntWrap.wrap1{}
-div.cntWrap.wrap1>div.content.cnt1{}
-div.cntWrap.wrap1>div.content.cnt1>header{}
+div.cntWrap.wrap1>div.content.cnt1{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap.wrap1>div.content.cnt1>header{background-color: #958A9A}
 div.cntWrap.wrap1>div.content.cnt1>header>h2{}
 div.cntWrap.wrap1>div.content.cnt1>header>p{}
 div.cntWrap.wrap1>div.content.cnt1>section{}
@@ -56,7 +82,11 @@ div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icon
 
 /* 콘텐츠2 */
 div.cntWrap.wrap2{}
-div.cntWrap.wrap2>div.content.cnt2{}
+div.cntWrap.wrap2>div.content.cnt2{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.cntWrap.wrap2>div.content.cnt2>header{}
 div.cntWrap.wrap2>div.content.cnt2>header>h2{}
 div.cntWrap.wrap2>div.content.cnt2>header>p{}
@@ -71,7 +101,11 @@ div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>div.button{}
 
 /* 콘텐츠3 */
 div.cntWrap.wrap3{}
-div.cntWrap.wrap3>div.content.cnt3{}
+div.cntWrap.wrap3>div.content.cnt3{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.cntWrap.wrap3>div.content.cnt3>header{}
 div.cntWrap.wrap3>div.content.cnt3>header>h2{}
 div.cntWrap.wrap3>div.content.cnt3>header>p{}
@@ -83,8 +117,14 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
-div.footerWrap{}
-div.footerWrap>footer{}
+div.footerWrap{
+    background-color: #958A9A;
+}
+div.footerWrap>footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.footerWrap>footer>h4{}
 div.footerWrap>footer>p{}
 div.footerWrap>footer>div.sns{}
