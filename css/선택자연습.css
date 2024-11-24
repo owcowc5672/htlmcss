@@ -192,5 +192,6 @@ div.footerWrap>footer>p{
 }
 div.footerWrap>footer>div.sns{
     line-height: 80px;
+    text-align: center;
 }
 div.footerWrap>footer>div.sns>i{}
