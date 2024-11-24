@@ -133,8 +133,12 @@ div.cntWrap.wrap2>div.content.cnt2{}
 div.cntWrap.wrap2>div.content.cnt2>header{
     background-color: #958A9A
 }
-div.cntWrap.wrap2>div.content.cnt2>header>h2{}
-div.cntWrap.wrap2>div.content.cnt2>header>p{}
+div.cntWrap.wrap2>div.content.cnt2>header>h2{
+    color: #fff;
+}
+div.cntWrap.wrap2>div.content.cnt2>header>p{
+    color: #fff;
+}
 div.cntWrap.wrap2>div.content.cnt2>section{}
 div.cntWrap.wrap2>div.content.cnt2>section>article{
     display: flex;
@@ -188,6 +192,7 @@ div.footerWrap>footer{
 div.footerWrap>footer>h4{
     line-height: 80px;
     text-align: center;
+    color: #fff;
 }
 div.footerWrap>footer>p{
     line-height: 20px;
@@ -196,9 +201,12 @@ div.footerWrap>footer>p{
     text-align: center;
     width: calc(100% / 12* 4.5);
     margin: 0 auto;
+    color: #fff;
 }
 div.footerWrap>footer>div.sns{
     line-height: 80px;
     text-align: center;
 }
-div.footerWrap>footer>div.sns>i{}
+div.footerWrap>footer>div.sns>i{
+    color: #fff;
+}
