@@ -53,3 +53,39 @@ div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>p{}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons{}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons>i{}
+
+/* 콘텐츠2 */
+div.cntWrap.wrap2{}
+div.cntWrap.wrap2>div.content.cnt2{}
+div.cntWrap.wrap2>div.content.cnt2>header{}
+div.cntWrap.wrap2>div.content.cnt2>header>h2{}
+div.cntWrap.wrap2>div.content.cnt2>header>p{}
+div.cntWrap.wrap2>div.content.cnt2>section{}
+div.cntWrap.wrap2>div.content.cnt2>section>article{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h4{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>div.button{}
+
+/* 콘텐츠3 */
+div.cntWrap.wrap3{}
+div.cntWrap.wrap3>div.content.cnt3{}
+div.cntWrap.wrap3>div.content.cnt3>header{}
+div.cntWrap.wrap3>div.content.cnt3>header>h2{}
+div.cntWrap.wrap3>div.content.cnt3>header>p{}
+div.cntWrap.wrap3>div.content.cnt3>section{}
+div.cntWrap.wrap3>div.content.cnt3>section>article{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
+
+/* 푸터 */
+div.footerWrap{}
+div.footerWrap>footer{}
+div.footerWrap>footer>h4{}
+div.footerWrap>footer>p{}
+div.footerWrap>footer>div.sns{}
+div.footerWrap>footer>div.sns>i{}
