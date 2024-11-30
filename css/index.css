@@ -1,0 +1,165 @@
+@import url('./all.min.css');
+@import url('./reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+/* Header Top Area */
+div.hdrTopWrap {
+    background-color: #212517;
+}
+div.hdrTopWrap>div.hdrTop {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+div.hdrTopWrap>div.hdrTop>h5 {
+    font-style: 35px;
+}
+div.hdrTopWrap>div.hdrTop>h5>i.fa-solid {}
+
+/* Header Area */
+div.headerWrap {
+    background-color: #A31F30;
+}
+div.headerWrap>div.header {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.headerWrap>div.header>h1 {
+    font-family: "Mountains of Christmas", serif;
+    text-transform: capitalize;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+div.headerWrap>div.header>nav {
+    display: flex;
+    line-height: 80px;
+    column-gap: 20px;
+}
+div.headerWrap>div.header>nav>h4 {}
+div.headerWrap>div.header>nav>h4>i.fa-solid {}
+
+/* Content Section 01 */
+div.cntWrap.wrap1 {}
+div.cntWrap.wrap1>div.content.cnt01 {}
+div.cntWrap.wrap1>div.content.cnt01>div.header {}
+div.cntWrap.wrap1>div.content.cnt01>div.header>h2,
+div.cntWrap.wrap2>div.content.cnt02>div.header>h2,
+div.cntWrap.wrap3>div.content.cnt03>div.header>h2 {
+    line-height: 80px;
+}
+div.cntWrap.wrap1>div.content.cnt01>div.header>p,
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>p,
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>p,
+div.cntWrap.wrap2>div.content.cnt02>div.header>p,
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>p,
+div.cntWrap.wrap3>div.content.cnt03>div.header>p,
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.texts>p,
+div.footerWrap>footer.footer>p {
+    line-height: 20px;
+}
+div.cntWrap.wrap1>div.content.cnt01>div.section {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.image {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>h3,
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>h4,
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>h3,
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>h3,
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>h4,
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.texts>h3 {
+    line-height: 40px;
+}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>p {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>div.icons {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artTop>article>div.texts>div.icons>i.fa-solid {}
+
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.image {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>h3 {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>p {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>div.icons {}
+div.cntWrap.wrap1>div.content.cnt01>div.section>div.artBtm>article>div.texts>div.icons>i.fa-solid {}
+
+/* Content Section 02 */
+div.cntWrap.wrap2 {}
+div.cntWrap.wrap2>div.content.cnt02 {}
+div.cntWrap.wrap2>div.content.cnt02>div.header {}
+div.cntWrap.wrap2>div.content.cnt02>div.header>h2 {}
+div.cntWrap.wrap2>div.content.cnt02>div.header>p {}
+div.cntWrap.wrap2>div.content.cnt02>div.section {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.image {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>h3 {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>h4 {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>p {}
+div.cntWrap.wrap2>div.content.cnt02>div.section>article>div.texts>div.button {}
+
+/* Content Section 03 */
+div.cntWrap.wrap3 {}
+div.cntWrap.wrap3>div.content.cnt03 {}
+div.cntWrap.wrap3>div.content.cnt03>div.header {}
+div.cntWrap.wrap3>div.content.cnt03>div.header>h2 {}
+div.cntWrap.wrap3>div.content.cnt03>div.header>p {}
+div.cntWrap.wrap3>div.content.cnt03>div.section {}
+div.cntWrap.wrap3>div.content.cnt03>div.section>article {}
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.image {}
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.texts {}
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.texts>h3 {}
+div.cntWrap.wrap3>div.content.cnt03>div.section>article>div.texts>p {}
+
+/* Footer Area */
+div.footerWrap {}
+div.footerWrap>footer.footer {}
+div.footerWrap>footer.footer>h4 {}
+div.footerWrap>footer.footer>p {}
+div.footerWrap>footer.footer>div.sns {}
+div.footerWrap>footer.footer>div.sns>i.fa-brands {}
+
+/* 공통 속성: 모든 wrap 클래스 내부 첫번째 자식 요소 */
+div.hdrTopWrap > div.hdrTop,
+div.headerWrap > div.header,
+div.cntWrap.wrap1 > div.content.cnt01,
+div.cntWrap.wrap2 > div.content.cnt02,
+div.cntWrap.wrap3 > div.content.cnt03,
+div.footerWrap > footer.footer {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+div.headerWrap>div.header>h1,
+div.headerWrap>div.header>nav>h4,
+div.cntWrap.wrap1>div.content.cnt01>div.header>h2,
+div.cntWrap.wrap2>div.content.cnt02>div.header>h2,
+div.cntWrap.wrap3>div.content.cnt03>div.header>h2,
+div.footerWrap>footer.footer>h4 {
+    font-family: "Mountains of Christmas", serif;
+    text-transform: capitalize;
+}
+
+div.hdrTopWrap>div.hdrTop,
+div.headerWrap>div.header,
+div.cntWrap.wrap2>div.content.cnt02>div.header,
+div.footerWrap>footer.footer {
+    color: #fff;
+}
